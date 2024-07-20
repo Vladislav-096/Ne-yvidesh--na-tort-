@@ -1,0 +1,159 @@
+@font-face {
+  font-family: "Roboto";
+  src: local("Roboto Thin"), local("Roboto-Thin"),
+    url("../fonts/Roboto-Thin.woff2") format("woff2"),
+    url("../fonts/Roboto-Thin.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: local("Roboto Light"), local("Roboto-Light"),
+    url("../fonts/Roboto-Light.woff2") format("woff2"),
+    url("../fonts/Roboto-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: local("Roboto Regular"), local("Roboto-Regular"),
+    url("../fonts/Roboto-Regular.woff2") format("woff2"),
+    url("../fonts/Roboto-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: local("Roboto Medium"), local("Roboto-Medium"),
+    url("../fonts/Roboto-Medium.woff2") format("woff2"),
+    url("../fonts/Roboto-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: local("Roboto Bold"), local("Roboto-Bold"),
+    url("../fonts/Roboto-Bold.woff2") format("woff2"),
+    url("../fonts/Roboto-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Kievit Pro";
+  src: local("Kievit Pro Light"), local("Kievit-Pro-Light"),
+    url("../fonts/KievitPro-Light.woff2") format("woff2"),
+    url("../fonts/KievitPro-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Kievit Pro";
+  src: local("Kievit Pro Regular"), local("Kievit-Pro-Regular"),
+    url("../fonts/KievitPro-Regular.woff2") format("woff2"),
+    url("../fonts/KievitPro-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Kievit Pro";
+  src: local("Kievit Pro Medium"), local("Kievit-Pro-Medium"),
+    url("../fonts/KievitPro-Medium.woff2") format("woff2"),
+    url("../fonts/KievitPro-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Kievit Pro";
+  src: local("Kievit Pro Bold"), local("Kievit-Pro-Bold"),
+    url("../fonts/KievitPro-Bold.woff2") format("woff2"),
+    url("../fonts/KievitPro-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  min-width: 375px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: rgb(0, 0, 0);
+  background-color: rgba(249, 247, 242, 1);
+}
+
+/* glob */
+.container {
+  max-width: 904px;
+}
+
+.third-container {
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+.list-reset {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.btn-reset {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+/*  */
+.section {
+  background-color: #fff;
+}
+
+/* Скролл */
+.messages::-webkit-scrollbar {
+  width: 3px;
+  /* height: 3px; */
+  /* высота для горизонтального скролла */
+  /* opacity: 0; */
+  background-color: transparent;
+}
+
+.messages::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 70, 65, 1);
+}

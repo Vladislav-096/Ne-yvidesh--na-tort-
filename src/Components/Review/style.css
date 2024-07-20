@@ -1,0 +1,98 @@
+.review-card {
+  margin-right: 19px;
+  padding: 27px 25px 17px 19px;
+  background-color: rgba(249, 247, 242, 1);
+}
+
+/* .react-multi-carousel-track {
+
+} */
+
+.react-multi-carousel-item:not(:last-child) div .review-card {
+  margin-right: 20px;
+}
+
+.review-card__user-info-wrapper {
+  margin-bottom: 27px;
+  display: flex;
+}
+
+.review-card__user-name {
+  /* font-family: "KievitPro"; */
+  padding-top: 9px;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 500;
+  letter-spacing: 0em;
+}
+
+
+.review-card__picture {
+  margin-right: 10px;
+  width: 30px;
+}
+
+.review-card__topic {
+  /* font-family: "KievitPro"; */
+  margin-bottom: 10px;
+  font-size: 13px;
+  line-height: 17px;
+  letter-spacing: 0.4642857015132904px;
+  text-align: left;
+  font-weight: 400;
+}
+
+.review-card__topic-span {
+  font-weight: 500;
+  color: rgba(252, 79, 30, 1);
+}
+
+.review-card__descr {
+  padding-right: 15px;
+  margin-bottom: 13px;
+  font-size: 15px;
+  line-height: 25px;
+}
+.review-card__bottom-section {
+  display: flex;
+  font-size: 11px;
+  line-height: 25px;
+  text-align: left;
+  color: rgba(157, 157, 157, 1);
+}
+
+.review-card__data {
+  margin-right: 5px;
+}
+
+.review-card__comments {
+  padding-left: 16px;
+  position: relative;
+}
+
+.review-card__comments::before {
+  content: "";
+  position: absolute;
+  top: 12px;
+  left: 8px;
+  width: 2px;
+  height: 2px;
+  background-color: rgba(157, 157, 157, 1);
+}
+
+.review-card__like {
+  margin-left: auto;
+  padding-left: 23px;
+  position: relative;
+}
+
+.review-card__like::before {
+  content: "";
+  position: absolute;
+  left: 5px;
+  top: 3px;
+  width: 14px;
+  height: 16px;
+  background-image: url("./src/assets/like.svg");
+  background-repeat: no-repeat;
+}
